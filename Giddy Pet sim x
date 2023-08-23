@@ -518,12 +518,12 @@ if game.PlaceId == 6284583030 or game.PlaceId == 10321372166 or game.PlaceId == 
 	
 
 	local Window = Rayfield:CreateWindow({
-	   Name = "Pet Simulator GUI | by Rafa ",
+	   Name = "Pet Simulator GUI | by Giddy ",
 	   LoadingTitle = SCRIPT_NAME .. " " .. SCRIPT_VERSION,
-	   LoadingSubtitle = "by Rafa",
+	   LoadingSubtitle = "by giddy",
 	   ConfigurationSaving = {
 		  Enabled = true,
-		  FolderName = "Rafa",
+		  FolderName = "giddy",
 		  FileName = "PetSimulatorX_" .. tostring(LocalPlayer.UserId)
 	   },
 	   OldTabLayout = true
@@ -531,7 +531,7 @@ if game.PlaceId == 6284583030 or game.PlaceId == 10321372166 or game.PlaceId == 
 	
 	coroutine.wrap(function() 
 		wait(0.5)
-		if not isfile("Rafa/AcceptedTerms.txt") then 
+		if not isfile("Giddy/AcceptedTerms.txt") then 
 			Window:Prompt({
 				Title = 'Disclaimer',
 				SubTitle = 'Misuse of this script may result in penalties!',
@@ -541,8 +541,8 @@ if game.PlaceId == 6284583030 or game.PlaceId == 10321372166 or game.PlaceId == 
 					Accept = {
 						Name = "Ok",
 						Callback = function()
-							if not isfolder("Rafa") then makefolder("Rafa") end
-							writefile("Rafa/AcceptedTerms.txt", "true")
+							if not isfolder("Giddy") then makefolder("Giddy") end
+							writefile("Giddy/AcceptedTerms.txt", "true")
 						end,
 						
 					}
@@ -583,7 +583,7 @@ if game.PlaceId == 6284583030 or game.PlaceId == 10321372166 or game.PlaceId == 
 	
 	
 	
-	Library.ChatMsg.New(string.format("Hello, %s! You're running %s %s", LocalPlayer.DisplayName, SCRIPT_NAME, SCRIPT_VERSION), Color3.fromRGB(175, 70, 245))
+	Library.ChatMsg.New(string.format("Merhaba, %s! You're running %s %s", LocalPlayer.DisplayName, SCRIPT_NAME, SCRIPT_VERSION), Color3.fromRGB(175, 70, 245))
 	
 	--local mainTab = Window:CreateTab("Main", "12434808810")
 	
@@ -599,7 +599,7 @@ if game.PlaceId == 6284583030 or game.PlaceId == 10321372166 or game.PlaceId == 
 	
 	
 	local autoFarmTab = Window:CreateTab("Farm", "13075651575", true)
-	local stats = autoFarmTab:CreateParagraph({Title = "Hello, <b><font color=\"#2B699F\">" .. LocalPlayer.DisplayName .. "</font></b>!", Content = "Thanks for using my script! - Rafa\nMake sure to join us at <b><font color=\"#2B699F\">discord.gg/MilkUp</font></b>"})
+	local stats = autoFarmTab:CreateParagraph({Title = "Merhaba, <b><font color=\"#2B699F\">" .. LocalPlayer.DisplayName .. "</font></b>!", Content = "Scriptimi kullandığınız için teşekkürler! - Giddy\nMake sure to join us at <b><font color=\"#2B699F\">discord.gg/MilkUp</font></b>"})
 	local autoFarmSection = autoFarmTab:CreateSection("Auto Farm", false, false, "7785988164")
 	local enableAutoFarm = false
 	autoFarmTab:CreateToggle({
