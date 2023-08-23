@@ -599,7 +599,7 @@ if game.PlaceId == 6284583030 or game.PlaceId == 10321372166 or game.PlaceId == 
 	
 	
 	local autoFarmTab = Window:CreateTab("Farm", "13075651575", true)
-	local stats = autoFarmTab:CreateParagraph({Title = "Merhaba, <b><font color=\"#2B699F\">" .. LocalPlayer.DisplayName .. "</font></b>!", Content = "Scriptimi kullandığınız için teşekkürler! - Giddy\nMake sure to join us at <b><font color=\"#2B699F\">discord.gg/MilkUp</font></b>"})
+	local stats = autoFarmTab:CreateParagraph({Title = "Merhaba, <b><font color=\"#2B699F\">" .. LocalPlayer.DisplayName .. "</font></b>!", Content = "Scriptimi kullandığınız için teşekkürler! - Giddy\nMake iletişim için<b><font color=\"#2B699F\">Giddyexee</font></b>"})
 	local autoFarmSection = autoFarmTab:CreateSection("Auto Farm", false, false, "7785988164")
 	local enableAutoFarm = false
 	autoFarmTab:CreateToggle({
@@ -2532,16 +2532,16 @@ if game.PlaceId == 6284583030 or game.PlaceId == 10321372166 or game.PlaceId == 
 	end)
 end
 
--- discord.gg/MilkUp
--- discord.gg/MilkUp
--- discord.gg/MilkUp
--- discord.gg/MilkUp
--- discord.gg/MilkUp
--- discord.gg/MilkUp
--- discord.gg/MilkUp
--- discord.gg/MilkUp
--- discord.gg/MilkUp
--- discord.gg/MilkUp
--- discord.gg/MilkUp
--- discord.gg/MilkUp
--- discord.gg/MilkUp
+-- discord yakında 
+-- discord yakında 
+-- discord yakında
+-- discord yakında 
+-- discord Yakında 
+-- discord Yakında 
+-- discord Yakında 
+-- discord Yakında 
+-- discord Yakında 
+-- discord Yakında 
+-- discord Yakında 
+-- discord Yakında 
+-- discord Yakında 
